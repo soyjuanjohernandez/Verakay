@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+.escala:hover, .escala:focus {
+	-webkit-transform:scale(1.1);
+	
+}
+
+.escala {
+	-webkit-transition-property:-webkit-transform ;
+	-webkit-transition-duration:.3s;
+	}
+	
+#escudo:hover, #escalafocus {
+	-webkit-transform:rotate(900deg) scale(.1);
+	-webkit-opacity:0;
+	cursor:pointer;
+	
+		
+}
+	
+	
+#escudo {
+	-webkit-transition:all;
+	-webkit-transition-duration:1s;
+	
+	
+}
+
+#centro {
+	-webkit-animation-name:escala;
+	-webkit-animation-duration:0.7s;
+	-webkit-animation-iteration-count:infinite;
+	animation-direction: alternate;
+}
+
+@-webkit-keyframes escala {
+	0% {-webkit-transform:scale(1);}
+	50% {-webkit-transform:scale(1.002);}
+	100% {-webkit-transform:scale(1);}
+}
+
+#titulo1:hover {
+	/*-webkit-transform:rotate(900deg) ;*/
+	-webkit-opacity:1;
+}
+
+
+div.datos {
+	-webkit-transition: .5s all ;
+	
+	
+}
+
+div.datos:hover {
+/*	bottom:0px;*/
+-webkit-transform: translateY(-150px);
+/*font-size:14px;*/
+}
+
+.jugador {
+	/*cursor:pointer;*/
+	/*-webkit-opacity:.6;*/
+	-webkit-transition: .6s all ease-in-out;
+
+	
+}
+
+.jugador:hover  {
+	-webkit-opacity:1;
+	-webkit-transform:scale(1.5,1.5);
+	z-index:2;
+	
+	
+	
+}

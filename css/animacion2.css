@@ -1,0 +1,267 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.animacion2 {
+  /*propiedades para hacer el efecto "responsivo"*/
+  width: 100%;
+ /* height: auto ;*/
+  display: inline-block;
+
+  margin:0 auto;
+	  
+	 /*  max-width: 1500px;*/
+  vertical-align: middle;
+ 
+  /*Propiedades background css3 para que el fondo sea "responsivo"*/
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_1.png);
+	background-position:center;
+	
+  background-repeat: no-repeat;
+ 
+  /*margin-left:25%;*/
+  
+   background-size: contain;
+  /*Propiedad Animacion CSS*/
+    -webkit-animation: 
+    /*Dos grupos de animaciones*/
+    anim 5s infinite normal linear;
+	margin-top:2%;
+	
+	
+	
+	
+  
+}
+.animacion2 img {
+  /*la imagen oculta es la que otorga una altura proporcional al div*/
+ /* width: 528px;
+  height: 670px;*/
+  vertical-align: middle;
+  opacity: 0;
+ 
+  
+ 
+ 
+  
+}
+@-webkit-keyframes anim {
+  
+  /*Nosotros especificamos el intervalo de tiempo en el que queremos que las imagenes de fondo cambien.*/
+  
+  0% {
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_1.png) no-repeat;
+    background-size: contain;
+  }
+ 2% {
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_2.png) no-repeat;
+    background-size: contain;
+  }
+ 4% {
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_3.png)  no-repeat;
+    background-size: contain;   
+  }
+  6%{
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_4.png) no-repeat;
+    background-size: contain;
+  }
+  8% {
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_5.png) no-repeat;
+    background-size: contain;
+  }
+  10% {
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_6.png) no-repeat;
+    background-size: contain;
+  }
+ 12%{
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_7.png) no-repeat;
+    background-size: contain;
+  }
+  14%{
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_8.png) no-repeat;
+    background-size: contain;
+  }
+ 16%{
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_9.png) no-repeat;
+    background-size: contain;
+  }
+ 18%{
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_10.png) no-repeat;
+    background-size: contain;
+  }
+  20%{
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_11.png) no-repeat;
+    background-size: contain;
+  }
+
+
+  22% {
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_12.png) no-repeat;
+    background-size: contain;   
+  }
+  24%{
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_13.png) no-repeat;
+    background-size: contain;
+  }
+  26% {
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_14.png) no-repeat;
+    background-size: contain;
+  }
+  28% {
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_15.png) no-repeat;
+    background-size: contain;
+  }
+  30%{
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_16.png) no-repeat;
+    background-size: contain;
+  }
+  32%{
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_17.png) no-repeat;
+    background-size: contain;
+  }
+  34%{
+    background:url(../Images/LOGO%20ANIMADO/logoanimado_18.png) no-repeat;
+    background-size: contain;
+  }
+
+
+  36% {
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_19.png) no-repeat;
+    background-size: contain;
+  }
+  38%{
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_20.png) no-repeat;
+    background-size: contain;
+  }
+  40% {
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_21.png) no-repeat;
+    background-size: contain;
+  }
+
+
+
+ 42% {
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_22.png) no-repeat;
+    background-size: contain;
+  }
+  44%{
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_23.png) no-repeat;
+    background-size: contain;
+  }
+  46% {
+    background:url(../Images/LOGO%20ANIMADO/logoanimado_24.png) no-repeat;
+    background-size: contain;
+  }
+
+  48% {
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_25.png) no-repeat;
+    background-size: contain;
+  }
+  50%{
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_26.png) no-repeat;
+    background-size: contain;
+  }
+  52%{
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_27.png) no-repeat;
+    background-size: contain;
+  }
+  54% {
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_28.png) no-repeat;
+    background-size: contain;
+  }
+   56% {
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_29.png) no-repeat;
+    background-size: contain;
+  }
+   58% {
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_30.png) no-repeat;
+    background-size: contain;
+  }
+   60% {
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_31.png) no-repeat;
+    background-size: contain;
+  }
+   62% {
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_32.png) no-repeat;
+    background-size: contain;
+  }
+   64% {
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_33.png) no-repeat;
+    background-size: contain;
+  }
+   66% {
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_34.png) no-repeat;
+    background-size: contain;
+  }
+   68% {
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_35.png) no-repeat;
+    background-size: contain;
+  }
+  70% {
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_36.png) no-repeat;
+    background-size: contain;
+  }
+   72% {
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_37.png) no-repeat;
+    background-size: contain;
+  }
+   74% {
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_38.png) no-repeat;
+    background-size: contain;
+  }
+76% {
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_39.png) no-repeat;
+    background-size: contain;
+  }
+  78% {
+    background: url(../Images/LOGO%20ANIMADO/logoanimado_40.png) no-repeat;
+    background-size: contain;
+  }
+   80% {
+    background:  url(../Images/LOGO%20ANIMADO/logoanimado_41.png) no-repeat;
+    background-size: contain;
+  }
+   82% {
+    background:  url(../Images/LOGO%20ANIMADO/logoanimado_42.png) no-repeat;
+    background-size: contain;
+  }
+   84% {
+    background:  url(../Images/LOGO%20ANIMADO/logoanimado_43.png) no-repeat;
+    background-size: contain;
+  }
+   86% {
+    background:  url(../Images/LOGO%20ANIMADO/logoanimado_44.png) no-repeat;
+    background-size: contain;
+  }
+   88% {
+    background:  url(../Images/LOGO%20ANIMADO/logoanimado_45.png) no-repeat;
+    background-size: contain;
+  }
+   90% {
+    background:  url(../Images/LOGO%20ANIMADO/logoanimado_46.png) no-repeat;
+    background-size: contain;
+  }
+   92% {
+    background:  url(../Images/LOGO%20ANIMADO/logoanimado_47.png) no-repeat;
+    background-size: contain;
+  }
+   94% {
+    background:  url(../Images/LOGO%20ANIMADO/logoanimado_48.png) no-repeat;
+    background-size: contain;
+  }
+   96% {
+    background:  url(../Images/LOGO%20ANIMADO/logoanimado_49.png) no-repeat;
+    background-size: contain;
+  }
+   100% {
+    background:  url(../Images/LOGO%20ANIMADO/logoanimado_50.png) no-repeat;
+    background-size: contain;
+  }
+  
+  
+
+}
+
+
+
+

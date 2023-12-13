@@ -1,0 +1,203 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+.efecto-glitch {
+  /*propiedades para hacer el efecto "responsivo"*/
+  width: 100%;
+
+  height: auto;
+
+
+  display: inline-block;
+  max-width: 500px;
+
+
+
+  vertical-align: middle;
+
+
+  /*  margin: 0 auto;*/
+  /*Propiedades background css3 para que el fondo sea "responsivo"*/
+  background: url(../Images/1.png);
+
+  background-repeat: no-repeat;
+  /*  margin-left:0%;*/
+
+
+
+  background-size: contain;
+  /*Propiedad Animacion CSS*/
+  -webkit-animation:
+    /*Dos grupos de animaciones*/
+    glitch 3s cubic-bezier(0.5, 0.2, 0.3, 1.0) infinite;
+
+}
+
+.efecto-glitch img {
+  /*la imagen oculta es la que otorga una altura proporcional al div*/
+  /*width: 528px;
+  height: 670px;*/
+  vertical-align: middle;
+  opacity: 0;
+
+
+
+}
+
+@-webkit-keyframes glitch {
+
+  /*Nosotros especificamos el intervalo de tiempo en el que queremos que las imagenes de fondo cambien.*/
+
+  0% {
+    background: url(../Images/1.png) no-repeat;
+    background-size: contain;
+  }
+
+  1.5% {
+    background: url(../Images/7.png) no-repeat;
+    background-size: contain;
+  }
+
+  1.6% {
+    background: url(../Images/4.png) no-repeat;
+    background-size: contain;
+  }
+
+  1.7% {
+    background: url(../Images/6.png) no-repeat;
+    background-size: contain;
+  }
+
+  1.8% {
+    background: url(../Images/3.png) no-repeat;
+    background-size: contain;
+  }
+
+  1.9% {
+    background: url(../Images/7.png) no-repeat;
+    background-size: contain;
+  }
+
+  2% {
+    background: url(../Images/3.png) no-repeat;
+    background-size: contain;
+  }
+
+  2.3% {
+    background: url(../Images/6.png) no-repeat;
+    background-size: contain;
+  }
+
+  2.5% {
+    background: url(../Images/2.png) no-repeat;
+    background-size: contain;
+  }
+
+  3% {
+    background: url(../Images/4.png) no-repeat;
+    background-size: contain;
+  }
+
+  5% {
+    background: url(../Images/5.png) no-repeat;
+    background-size: contain;
+  }
+
+
+  7.6% {
+    background: url(../Images/1.png) no-repeat;
+    background-size: contain;
+  }
+
+  7.7% {
+    background: url(../Images/7.png) no-repeat;
+    background-size: contain;
+  }
+
+  7.8% {
+    background: url(../Images/3.png) no-repeat;
+    background-size: contain;
+  }
+
+  7.9% {
+    background: url(../Images/3.png) no-repeat;
+    background-size: contain;
+  }
+
+  8% {
+    background: url(../Images/2.png) no-repeat;
+    background-size: contain;
+  }
+
+  8.3% {
+    background: url(../Images/5.png) no-repeat;
+    background-size: contain;
+  }
+
+  8.5% {
+    background: url(../Images/1.png) no-repeat;
+    background-size: contain;
+  }
+
+
+
+  14.9% {
+    background: url(../Images/1.png) no-repeat;
+    background-size: contain;
+  }
+
+  15.5% {
+    background: url(../Images/7.png) no-repeat;
+    background-size: contain;
+  }
+
+  15.7% {
+    background: url(../Images/1.png) no-repeat;
+    background-size: contain;
+  }
+
+
+
+  40.9% {
+    background: url(../Images/1.png) no-repeat;
+    background-size: contain;
+  }
+
+  41.5% {
+    background: url(../Images/7.png) no-repeat;
+    background-size: contain;
+  }
+
+  42% {
+    background: url(../Images/1.png) no-repeat;
+    background-size: contain;
+  }
+
+  70.9% {
+    background: url(../Images/1.png) no-repeat;
+    background-size: contain;
+  }
+
+  71.5% {
+    background: url(../Images/6.png) no-repeat;
+    background-size: contain;
+  }
+
+  71.8% {
+    background: url(../Images/7.png) no-repeat;
+    background-size: contain;
+  }
+
+  72% {
+    background: url(../Images/1.png) no-repeat;
+    background-size: contain;
+  }
+
+
+}
+
+
+
+}
